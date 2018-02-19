@@ -1,1 +1,1 @@
-# Python_trening
+# Repositorio for trending
