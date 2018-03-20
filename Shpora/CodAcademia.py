@@ -79,7 +79,17 @@ print(len(my_string))
 print(my_string.upper())
 
 
+'''Выводит максимальное число "max" '''
+maximum = max(123, 111, 5, -45, 0)
+print(maximum)
 
+'''Выводит минимальное число "min" '''
+minimum = min(123, 111, 5, -45, 0)
+print(minimum)
+
+'''Выводит колличество шагов до нуля "abs" '''
+absolute = abs(-5)
+print(absolute)
 
 
 
