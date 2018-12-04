@@ -31,14 +31,28 @@
 # print(small)
 
 
+#
+# def fizz_count(x):
+#     count = 0
+#     for item in x: # Считает фразы "fizz"
+#         if item == "fizz":
+#             count = count + 1
+#     return count
+#
+# aaa = ["fiz", "c", "dog", "fizz", "fizz"]
+# bbb = fizz_count(aaa)
+# print(bbb)
 
-def fizz_count(x):
-    count = 0
-    for item in x: # Считает фразы "fizz"
-        if item == "fizz":
-            count = count + 1
-    return count
+for letter in "Codecademy":
+    print(letter)
 
-aaa = ["fiz", "c", "dog", "fizz", "fizz"]
-bbb = fizz_count(aaa)
-print(bbb)
+# Empty lines to make the output pretty
+print()
+print()
+
+word = "Programming is fun!"
+
+for letter in word:
+    # Only print out the letter i
+    if letter == "i":
+        print(letter)
